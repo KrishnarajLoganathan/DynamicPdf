@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "ApplicationError";
+    <!--Layout = "~/Views/Shared/_Layout.cshtml";--><!--If need layout then enable this-->
+}
+
+<h2>ApplicationError</h2>
+
+<ul>
+        <li>
+            @(ViewData["Error"] as HandleErrorInfo).Exception.Message
+        </li>
+</ul>
+
+
+
+

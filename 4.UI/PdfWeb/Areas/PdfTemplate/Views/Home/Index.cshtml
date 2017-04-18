@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Pdf Template";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Message</h2>
+<form>
+    <input type="text" value="Type here!" id="inputtext" />
+    <input type="button" value="Click Me!" onclick="alert(document.getElementById('inputtext').value);"/>
+</form>
+
